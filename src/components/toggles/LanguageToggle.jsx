@@ -1,16 +1,34 @@
-import Router from "next/router"
+import { useRouter } from "next/router";
 
-const CollabsToggle = ({ handleClick }) => {
+const LanguageToggle = ({ handleClick }) => {
+    const router = useRouter();
+    const { locale, pathname, asPath, query } = router;
+
+    const switchLanguage = (newLocale) => {
+        handleClick && handleClick();
+        router.push({ pathname, query }, asPath, { locale: newLocale });
+    };
+
     return (
-        <button
-            onClick={() => { handleClick(); Router.push('/contact') }}
-            data-umami-event='Click Open Freelance' href='/contact'
-            className="flex gap-2 items-center bg-background border border-stroke px-5 py-3 rounded-2xl"
-        >
-            <i className="fad fa-laptop-code text-primary"></i>
-            Open Freelance !
-        </button>
-    )
-}
+        <div className="flex gap-2 items-center bg-background border border-stroke px-5 py-3 rounded-2xl">
+            <i className="fad fa-language text-primary"></i>
+            <div className="flex gap-1">
+                <button
+                    onClick={() => switchLanguage('id')}
+                    className={`px-2 py-1 text-sm rounded ${locale === 'id' ? 'bg-primary text-white' : 'text-subtext hover:text-primary'}`}
+                >
+                    ID
+                </button>
+                <span className="text-subtext">|</span>
+                <button
+                    onClick={() => switchLanguage('en')}
+                    className={`px-2 py-1 text-sm rounded ${locale === 'en' ? 'bg-primary text-white' : 'text-subtext hover:text-primary'}`}
+                >
+                    EN
+                </button>
+            </div>
+        </div>
+    );
+};
 
-export default CollabsToggle
+export default LanguageToggle;
