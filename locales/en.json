@@ -1,0 +1,127 @@
+{
+  "Sidebar": {
+    "welcome": "Welcome to my personal website",
+    "lastupdate": "Last update",
+    "openSource": "Open Source on GitHub",
+    "lightMode": "Light Mode",
+    "darkMode": "Dark Mode"
+  },
+  "Home": {
+    "introduction": "Fullstack Developer",
+    "passion": "I am passionate about crafting seamless web experiences, specializing in building efficient, scalable, and attractive web applications. Bringing digital dreams to life.",
+    "motto": "Code with passion, build with purpose",
+    "based": "Based in India",
+    "collaboration": "Let's Collaborate!",
+    "freelance": "I'm available for freelance projects and exciting opportunities. Let's create something amazing together!",
+    "getInTouch": "Get in Touch",
+    "getResume": "Get Resume",
+    "share_title": "Share this website",
+    "thank_you_message": "Thank you for visiting my website!",
+    "link_copied": "Link Copied!",
+    "share_link": "Copy Link",
+    "techstack": "Tech Stack"
+  },
+  "About": {
+    "title": "About Me",
+    "subtitle": "Get to know me better",
+    "metaDesc": "Learn more about Dhruv Pal, a passionate fullstack developer specializing in web development with Next.js and modern technologies.",
+    "intro": "Hello! I'm Dhruv Pal, a passionate fullstack developer with a strong focus on creating exceptional web experiences.",
+    "journeyTitle": "My Journey",
+    "journey": "My journey in web development started with curiosity and has evolved into a passion for creating meaningful digital solutions.",
+    "valuesTitle": "My Values",
+    "values": "I believe in writing clean, maintainable code and creating user-centered designs that make a difference.",
+    "funTitle": "Fun Facts",
+    "funfact": "When I'm not coding, you can find me exploring new technologies or working on personal projects."
+  },
+  "Skillset": {
+    "title": "Skillset",
+    "subtitle": "Technologies and tools I work with",
+    "metaDesc": "Explore Dhruv Pal's technical skills including Next.js, React, Python, and other modern web development technologies.",
+    "certificateTitle": "Certificates",
+    "certificateSubtitle": "Professional certifications and achievements"
+  },
+  "Experience": {
+    "title": "Experience",
+    "subtitle": "My professional journey and education",
+    "metaDesc": "Discover Dhruv Pal's professional experience and educational background in web development and software engineering."
+  },
+  "Services": {
+    "title": "Services",
+    "subtitle": "What I can do for you",
+    "metaDesc": "Professional web development services offered by Dhruv Pal including frontend, backend, and fullstack development.",
+    "FAQ": {
+      "faqHeading": "Frequently Asked Questions",
+      "faqDescription": "Common questions about my services and work process",
+      "contactText": "Have more questions?",
+      "contactLink": "Contact me"
+    }
+  },
+  "Portfolio": {
+    "title": "Portfolio",
+    "subtitle": "Showcase of my work and projects",
+    "metaDesc": "Browse through Dhruv Pal's portfolio of web development projects, including fullstack applications and frontend designs.",
+    "seePortfolio": "View Project",
+    "noPortfolio": "No projects found in {category} category"
+  },
+  "Blog": {
+    "title": "Blog",
+    "subtitle": "Thoughts and insights on web development",
+    "metaDesc": "Read Dhruv Pal's blog posts about web development, programming tips, and technology insights."
+  },
+  "Contact": {
+    "title": "Contact",
+    "subtitle": "Let's work together",
+    "metaDesc": "Get in touch with Dhruv Pal for web development projects, collaborations, or any inquiries.",
+    "findSocial": "Find me on social media",
+    "orsendMsg": "Or send me a message",
+    "name": "Name",
+    "namePlaceholder": "Your name",
+    "mail": "Email",
+    "mailPlaceholder": "your@email.com",
+    "projectDesc": "Project Description",
+    "descPlaceholder": "Tell me about your project...",
+    "sendMsg": "Send Message"
+  },
+  "Dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Analytics and statistics",
+    "metaDesc": "View Dhruv Pal's development statistics, GitHub contributions, and other analytics.",
+    "pagespeedTitle": "PageSpeed Insights",
+    "pagespeedSubtitle": "Website performance metrics",
+    "githubTitle": "GitHub Contributions",
+    "githubSubtitle": "My coding activity on GitHub",
+    "leetcodeTitle": "LeetCode Stats",
+    "leetcodeSubtitle": "Problem solving statistics"
+  },
+  "Guestbook": {
+    "title": "Guestbook",
+    "subtitle": "Leave a message for me",
+    "metaDesc": "Sign the guestbook and leave a message for Dhruv Pal. Share your thoughts and connect with other visitors.",
+    "signInMessage": "Sign in to leave a message. Your information is secure and follows our",
+    "privacyPolicy": "privacy policy"
+  },
+  "Privacy": {
+    "title": "Privacy Policy",
+    "subtitle": "How we protect your information",
+    "metaDesc": "Privacy policy for Dhruv Pal's website explaining how personal information is collected, used, and protected.",
+    "subtitles": {
+      "information_collected": "Information We Collect",
+      "usage": "How We Use Information",
+      "security": "Security",
+      "contact": "Contact Us"
+    },
+    "information_collected": "We only collect information necessary for the guestbook functionality, including your name, email, and profile picture from your chosen authentication provider.",
+    "usage": "Your information is used solely to display your messages in the guestbook and to provide a personalized experience.",
+    "security": "We implement appropriate security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction.",
+    "contact": "If you have any questions about this privacy policy, please contact us at"
+  },
+  "Offline": {
+    "title": "You're Offline",
+    "subtitle": "No internet connection",
+    "message": "It looks like you're not connected to the internet. Please check your connection and try again.",
+    "retry": "Try Again"
+  },
+  "Common": {
+    "comingsoon": "Coming Soon"
+  }
+}

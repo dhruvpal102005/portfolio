@@ -1,0 +1,127 @@
+{
+  "Sidebar": {
+    "welcome": "Selamat datang di website pribadi saya",
+    "lastupdate": "Terakhir diperbarui",
+    "openSource": "Open Source di GitHub",
+    "lightMode": "Mode Terang",
+    "darkMode": "Mode Gelap"
+  },
+  "Home": {
+    "introduction": "Fullstack Developer",
+    "passion": "Saya bersemangat dalam menciptakan pengalaman web yang mulus, mengkhususkan diri dalam membangun aplikasi web yang efisien, skalabel, dan menarik. Mewujudkan mimpi digital menjadi kenyataan.",
+    "motto": "Coding dengan passion, membangun dengan tujuan",
+    "based": "Berbasis di India",
+    "collaboration": "Mari Berkolaborasi!",
+    "freelance": "Saya tersedia untuk proyek freelance dan peluang menarik. Mari ciptakan sesuatu yang luar biasa bersama!",
+    "getInTouch": "Hubungi Saya",
+    "getResume": "Lihat Resume",
+    "share_title": "Bagikan website ini",
+    "thank_you_message": "Terima kasih telah mengunjungi website saya!",
+    "link_copied": "Link Disalin!",
+    "share_link": "Salin Link",
+    "techstack": "Tech Stack"
+  },
+  "About": {
+    "title": "Tentang Saya",
+    "subtitle": "Kenali saya lebih dekat",
+    "metaDesc": "Pelajari lebih lanjut tentang Dhruv Pal, seorang fullstack developer yang bersemangat mengkhususkan diri dalam pengembangan web dengan Next.js dan teknologi modern.",
+    "intro": "Halo! Saya Dhruv Pal, seorang fullstack developer yang bersemangat dengan fokus kuat pada menciptakan pengalaman web yang luar biasa.",
+    "journeyTitle": "Perjalanan Saya",
+    "journey": "Perjalanan saya dalam pengembangan web dimulai dengan rasa ingin tahu dan telah berkembang menjadi passion untuk menciptakan solusi digital yang bermakna.",
+    "valuesTitle": "Nilai-nilai Saya",
+    "values": "Saya percaya pada penulisan kode yang bersih dan mudah dipelihara serta menciptakan desain yang berpusat pada pengguna yang membuat perbedaan.",
+    "funTitle": "Fakta Menarik",
+    "funfact": "Ketika saya tidak sedang coding, Anda dapat menemukan saya menjelajahi teknologi baru atau mengerjakan proyek pribadi."
+  },
+  "Skillset": {
+    "title": "Keahlian",
+    "subtitle": "Teknologi dan tools yang saya gunakan",
+    "metaDesc": "Jelajahi keahlian teknis Dhruv Pal termasuk Next.js, React, Python, dan teknologi pengembangan web modern lainnya.",
+    "certificateTitle": "Sertifikat",
+    "certificateSubtitle": "Sertifikasi profesional dan pencapaian"
+  },
+  "Experience": {
+    "title": "Pengalaman",
+    "subtitle": "Perjalanan profesional dan pendidikan saya",
+    "metaDesc": "Temukan pengalaman profesional dan latar belakang pendidikan Dhruv Pal dalam pengembangan web dan rekayasa perangkat lunak."
+  },
+  "Services": {
+    "title": "Layanan",
+    "subtitle": "Apa yang bisa saya lakukan untuk Anda",
+    "metaDesc": "Layanan pengembangan web profesional yang ditawarkan oleh Dhruv Pal termasuk pengembangan frontend, backend, dan fullstack.",
+    "FAQ": {
+      "faqHeading": "Pertanyaan yang Sering Diajukan",
+      "faqDescription": "Pertanyaan umum tentang layanan dan proses kerja saya",
+      "contactText": "Punya pertanyaan lain?",
+      "contactLink": "Hubungi saya"
+    }
+  },
+  "Portfolio": {
+    "title": "Portfolio",
+    "subtitle": "Showcase karya dan proyek saya",
+    "metaDesc": "Jelajahi portfolio proyek pengembangan web Dhruv Pal, termasuk aplikasi fullstack dan desain frontend.",
+    "seePortfolio": "Lihat Proyek",
+    "noPortfolio": "Tidak ada proyek yang ditemukan dalam kategori {category}"
+  },
+  "Blog": {
+    "title": "Blog",
+    "subtitle": "Pemikiran dan wawasan tentang pengembangan web",
+    "metaDesc": "Baca posting blog Dhruv Pal tentang pengembangan web, tips programming, dan wawasan teknologi."
+  },
+  "Contact": {
+    "title": "Kontak",
+    "subtitle": "Mari bekerja sama",
+    "metaDesc": "Hubungi Dhruv Pal untuk proyek pengembangan web, kolaborasi, atau pertanyaan apapun.",
+    "findSocial": "Temukan saya di media sosial",
+    "orsendMsg": "Atau kirim saya pesan",
+    "name": "Nama",
+    "namePlaceholder": "Nama Anda",
+    "mail": "Email",
+    "mailPlaceholder": "email@anda.com",
+    "projectDesc": "Deskripsi Proyek",
+    "descPlaceholder": "Ceritakan tentang proyek Anda...",
+    "sendMsg": "Kirim Pesan"
+  },
+  "Dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Analitik dan statistik",
+    "metaDesc": "Lihat statistik pengembangan Dhruv Pal, kontribusi GitHub, dan analitik lainnya.",
+    "pagespeedTitle": "PageSpeed Insights",
+    "pagespeedSubtitle": "Metrik performa website",
+    "githubTitle": "Kontribusi GitHub",
+    "githubSubtitle": "Aktivitas coding saya di GitHub",
+    "leetcodeTitle": "Statistik LeetCode",
+    "leetcodeSubtitle": "Statistik pemecahan masalah"
+  },
+  "Guestbook": {
+    "title": "Buku Tamu",
+    "subtitle": "Tinggalkan pesan untuk saya",
+    "metaDesc": "Tanda tangani buku tamu dan tinggalkan pesan untuk Dhruv Pal. Bagikan pemikiran Anda dan terhubung dengan pengunjung lain.",
+    "signInMessage": "Masuk untuk meninggalkan pesan. Informasi Anda aman dan mengikuti",
+    "privacyPolicy": "kebijakan privasi"
+  },
+  "Privacy": {
+    "title": "Kebijakan Privasi",
+    "subtitle": "Bagaimana kami melindungi informasi Anda",
+    "metaDesc": "Kebijakan privasi untuk website Dhruv Pal yang menjelaskan bagaimana informasi pribadi dikumpulkan, digunakan, dan dilindungi.",
+    "subtitles": {
+      "information_collected": "Informasi yang Kami Kumpulkan",
+      "usage": "Bagaimana Kami Menggunakan Informasi",
+      "security": "Keamanan",
+      "contact": "Hubungi Kami"
+    },
+    "information_collected": "Kami hanya mengumpulkan informasi yang diperlukan untuk fungsi buku tamu, termasuk nama, email, dan foto profil Anda dari penyedia autentikasi yang Anda pilih.",
+    "usage": "Informasi Anda digunakan semata-mata untuk menampilkan pesan Anda di buku tamu dan memberikan pengalaman yang dipersonalisasi.",
+    "security": "Kami menerapkan langkah-langkah keamanan yang tepat untuk melindungi informasi pribadi Anda dari akses, perubahan, pengungkapan, atau penghancuran yang tidak sah.",
+    "contact": "Jika Anda memiliki pertanyaan tentang kebijakan privasi ini, silakan hubungi kami di"
+  },
+  "Offline": {
+    "title": "Anda Offline",
+    "subtitle": "Tidak ada koneksi internet",
+    "message": "Sepertinya Anda tidak terhubung ke internet. Silakan periksa koneksi Anda dan coba lagi.",
+    "retry": "Coba Lagi"
+  },
+  "Common": {
+    "comingsoon": "Segera Hadir"
+  }
+}

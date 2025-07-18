@@ -4,9 +4,6 @@ const nextConfig = {
   experimental: {
     esmExternals: true,
   },
-  postcss: {
-    config: './postcss.config.mjs',
-  },
   images: {
     domains: ['images.pexels.com'],
     unoptimized: true,
