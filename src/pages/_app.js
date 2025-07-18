@@ -82,8 +82,27 @@ export default function App({ Component, pageProps, lastCommitDate, messages }) 
 }
 App.getInitialProps = async ({ router }) => {
   const { locale } = router;
-  const lastCommitDate = await getLastCommitDate();
+  
+  let lastCommitDate = null;
+  try {
+    lastCommitDate = await getLastCommitDate();
+  } catch (error) {
+    console.error('Failed to fetch last commit date:', error);
+    lastCommitDate = new Date().toISOString();
+  }
 
-  const messages = (await import(`../../locales/${locale}.json`)).default
+  let messages = {};
+  try {
+    messages = (await import(`../../locales/${locale || 'en'}.json`)).default;
+  } catch (error) {
+    console.error('Failed to load locale messages:', error);
+    // Fallback to English
+    try {
+      messages = (await import(`../../locales/en.json`)).default;
+    } catch (fallbackError) {
+      console.error('Failed to load fallback locale:', fallbackError);
+    }
+  }
+  
   return { lastCommitDate, messages };
 };
