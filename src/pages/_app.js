@@ -32,6 +32,7 @@ const ProgressBar = dynamic(
 
 export default function App({ Component, pageProps, lastCommitDate, messages }) {
   const router = useRouter();
+  const locale = router.locale || 'en';
   const seoConfig = getDefaultSEOConfig(router.locale);
   useEffect(() => {
     Aos.init({
@@ -46,7 +47,7 @@ export default function App({ Component, pageProps, lastCommitDate, messages }) 
 
   return <>
     <NextIntlClientProvider
-      locale={router.locale}
+      locale={locale}
       timeZone="Asia/Jakarta"
       messages={messages}
     >
@@ -81,7 +82,7 @@ export default function App({ Component, pageProps, lastCommitDate, messages }) 
   </>
 }
 App.getInitialProps = async ({ router }) => {
-  const { locale } = router;
+  const locale = router.locale || 'en';
   
   let lastCommitDate = null;
   try {
@@ -104,5 +105,5 @@ App.getInitialProps = async ({ router }) => {
     }
   }
   
-  return { lastCommitDate, messages };
+  return { lastCommitDate, messages, locale };
 };
