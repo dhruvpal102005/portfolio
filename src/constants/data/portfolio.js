@@ -5,83 +5,61 @@ export const PORTFOLIO_CATEGORIES = {
         classIcon: 'fad fa-grid',
         reactIcon: <BiGrid />,
         slug: 'all',
-        label: {
-            en: 'All',
-            id: 'Semua',
-        }
+        label: 'All'
     },
     'code' : {
         classIcon: 'fad fa-code-simple',
         reactIcon: <BiCodeAlt />,
         slug: 'code',
-        label: {
-            en: 'Code',
-            id: 'Kode',
-        }
+        label: 'Code'
     },
     'uiux' : {
         classIcon: 'fad fa-pen-nib',
         reactIcon: <BiPen />,
         slug: 'uiux',
-        label: {
-            en: 'UI/UX',
-            id: 'UI/UX',
-        }
+        label: 'UI/UX'
     },
     'design' : {
         classIcon: 'fad fa-palette',
         reactIcon: <BiPalette />,
         slug: 'design',
-        label: {
-            en: 'Design',
-            id: 'Desain',
-        }
+        label: 'Design'
     },
     'product' : {
         classIcon: 'fad fa-cube',
         reactIcon: <BiCube />,
         slug: 'product',
-        label: {
-            en: 'Product',
-            id: 'Produk',
-        }
+        label: 'Product'
     },
 };
 
 export const PORTFOLIO_TYPES = {
     office: {
         icon: <BiBuilding/>,
-        en: "Office Project",
-        id: "Proyek Kantor"
+        label: "Office Project"
     },
     personal: {
         icon: <BiUser/>,
-        en: "Personal Project",
-        id: "Proyek Pribadi"
+        label: "Personal Project"
     },
     team: {
         icon: <BiGroup/>,
-        en: "Team Project",
-        id: "Proyek Tim"
+        label: "Team Project"
     },
     client: {
         icon: <BiBriefcase/>,
-        en: "Client Project",
-        id: "Proyek Klien"
+        label: "Client Project"
     },
     open_source: {
         icon: <BiCodeAlt/>,
-        en: "Open Source Project",
-        id: "Proyek Sumber Terbuka"
+        label: "Open Source Project"
     },
     research: {
         icon: <BiLogoFlask/>,
-        en: "Research Project",
-        id: "Proyek Penelitian"
+        label: "Research Project"
     },
     academic: {
         icon: <BiBook/>,
-        en: "Academic Project",
-        id: "Proyek Akademik"
+        label: "Academic Project"
     }
 };

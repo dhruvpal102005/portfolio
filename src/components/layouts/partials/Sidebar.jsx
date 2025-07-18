@@ -98,8 +98,8 @@ const Sidebar = ({ className, lastUpdate }) => {
                             <ul className="flex flex-col items-center">
                                 {MENU_ITEMS.map((item, index) => (
                                     <li key={index} className='w-full group py-2'>
-                                        <Link prefetch={false} tabIndex={0} aria-label={item.label[locale]} onClick={() => setToggle(false)} href={item.href} title={item.label[locale]} className={`${pathname === item.href ? '!text-primary' : ''} hover:text-primary  text-text   h-full transition-300 flex items-center justify-between`}>
-                                            <span className='flex items-center gap-3'><i className={`${item.iconClass} min-w-5 flex justify-center items-center group-hover:-rotate-[8deg] duration-300 transition-all`}></i> {item.label[locale]}</span> {pathname === item.href && <i className="fad fa-arrow-right animate-pulse"></i>}
+                                        <Link prefetch={false} tabIndex={0} aria-label={item.label} onClick={() => setToggle(false)} href={item.href} title={item.label} className={`${pathname === item.href ? '!text-primary' : ''} hover:text-primary  text-text   h-full transition-300 flex items-center justify-between`}>
+                                            <span className='flex items-center gap-3'><i className={`${item.iconClass} min-w-5 flex justify-center items-center group-hover:-rotate-[8deg] duration-300 transition-all`}></i> {item.label}</span> {pathname === item.href && <i className="fad fa-arrow-right animate-pulse"></i>}
                                         </Link>
                                     </li>
                                 ))}
