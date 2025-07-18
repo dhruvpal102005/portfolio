@@ -8,7 +8,6 @@ import { useTheme } from 'next-themes';
 
 import { MENU_ITEMS } from '@/constants/data/menu';
 
-import LanguageToggle from '../../toggles/LanguageToggle';
 import ThemeToggle from '../../toggles/ThemeToggle';
 import LastUpdated from './LastUpdated';
 import Footer from './Footer';
@@ -92,7 +91,6 @@ const Sidebar = ({ className, lastUpdate }) => {
                         <LastUpdated lastUpdate={formatDate(lastUpdate)} t={t} />
                         <div className="flex gap-2 flex-col">
                             <ThemeToggle t={t} />
-                            <LanguageToggle handleClick={() => setToggle(false)} />
                         </div>
                     </header>
                     <nav className="nav">
