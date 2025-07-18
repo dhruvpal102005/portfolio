@@ -32,7 +32,6 @@ const ProgressBar = dynamic(
 
 export default function App({ Component, pageProps, lastCommitDate, messages }) {
   const router = useRouter();
-  const locale = router.locale || 'en';
   const seoConfig = getDefaultSEOConfig(router.locale);
   useEffect(() => {
     Aos.init({
